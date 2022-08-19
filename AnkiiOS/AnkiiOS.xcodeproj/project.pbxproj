@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5E632F028ACFF01005B361A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E632EF28ACFF01005B361A /* AppDelegate.swift */; };
+		A5E632F228ACFF01005B361A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E632F128ACFF01005B361A /* SceneDelegate.swift */; };
+		A5E632F428ACFF01005B361A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E632F328ACFF01005B361A /* ViewController.swift */; };
+		A5E632F728ACFF01005B361A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E632F528ACFF01005B361A /* Main.storyboard */; };
+		A5E632F928ACFF05005B361A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5E632F828ACFF05005B361A /* Assets.xcassets */; };
+		A5E632FC28ACFF05005B361A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E632FA28ACFF05005B361A /* LaunchScreen.storyboard */; };
+		A5E6330728ACFF05005B361A /* AnkiiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6330628ACFF05005B361A /* AnkiiOSTests.swift */; };
+		A5E6331128ACFF05005B361A /* AnkiiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6331028ACFF05005B361A /* AnkiiOSUITests.swift */; };
+		A5E6331328ACFF06005B361A /* AnkiiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E6331228ACFF06005B361A /* AnkiiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5E6330328ACFF05005B361A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E632E428ACFF01005B361A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E632EB28ACFF01005B361A;
+			remoteInfo = AnkiiOS;
+		};
+		A5E6330D28ACFF05005B361A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5E632E428ACFF01005B361A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5E632EB28ACFF01005B361A;
+			remoteInfo = AnkiiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5E632EC28ACFF01005B361A /* AnkiiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkiiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E632EF28ACFF01005B361A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5E632F128ACFF01005B361A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5E632F328ACFF01005B361A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5E632F628ACFF01005B361A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5E632F828ACFF05005B361A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5E632FB28ACFF05005B361A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5E632FD28ACFF05005B361A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E6330228ACFF05005B361A /* AnkiiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E6330628ACFF05005B361A /* AnkiiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiiOSTests.swift; sourceTree = "<group>"; };
+		A5E6330C28ACFF05005B361A /* AnkiiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E6331028ACFF05005B361A /* AnkiiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiiOSUITests.swift; sourceTree = "<group>"; };
+		A5E6331228ACFF06005B361A /* AnkiiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5E632E928ACFF01005B361A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E632FF28ACFF05005B361A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E6330928ACFF05005B361A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5E632E328ACFF01005B361A = {
+			isa = PBXGroup;
+			children = (
+				A5E632EE28ACFF01005B361A /* AnkiiOS */,
+				A5E6330528ACFF05005B361A /* AnkiiOSTests */,
+				A5E6330F28ACFF05005B361A /* AnkiiOSUITests */,
+				A5E632ED28ACFF01005B361A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5E632ED28ACFF01005B361A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E632EC28ACFF01005B361A /* AnkiiOS.app */,
+				A5E6330228ACFF05005B361A /* AnkiiOSTests.xctest */,
+				A5E6330C28ACFF05005B361A /* AnkiiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5E632EE28ACFF01005B361A /* AnkiiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5E632EF28ACFF01005B361A /* AppDelegate.swift */,
+				A5E632F128ACFF01005B361A /* SceneDelegate.swift */,
+				A5E632F328ACFF01005B361A /* ViewController.swift */,
+				A5E632F528ACFF01005B361A /* Main.storyboard */,
+				A5E632F828ACFF05005B361A /* Assets.xcassets */,
+				A5E632FA28ACFF05005B361A /* LaunchScreen.storyboard */,
+				A5E632FD28ACFF05005B361A /* Info.plist */,
+			);
+			path = AnkiiOS;
+			sourceTree = "<group>";
+		};
+		A5E6330528ACFF05005B361A /* AnkiiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E6330628ACFF05005B361A /* AnkiiOSTests.swift */,
+			);
+			path = AnkiiOSTests;
+			sourceTree = "<group>";
+		};
+		A5E6330F28ACFF05005B361A /* AnkiiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5E6331028ACFF05005B361A /* AnkiiOSUITests.swift */,
+				A5E6331228ACFF06005B361A /* AnkiiOSUITestsLaunchTests.swift */,
+			);
+			path = AnkiiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5E632EB28ACFF01005B361A /* AnkiiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E6331628ACFF06005B361A /* Build configuration list for PBXNativeTarget "AnkiiOS" */;
+			buildPhases = (
+				A5E632E828ACFF01005B361A /* Sources */,
+				A5E632E928ACFF01005B361A /* Frameworks */,
+				A5E632EA28ACFF01005B361A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkiiOS;
+			productName = AnkiiOS;
+			productReference = A5E632EC28ACFF01005B361A /* AnkiiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5E6330128ACFF05005B361A /* AnkiiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E6331928ACFF06005B361A /* Build configuration list for PBXNativeTarget "AnkiiOSTests" */;
+			buildPhases = (
+				A5E632FE28ACFF05005B361A /* Sources */,
+				A5E632FF28ACFF05005B361A /* Frameworks */,
+				A5E6330028ACFF05005B361A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E6330428ACFF05005B361A /* PBXTargetDependency */,
+			);
+			name = AnkiiOSTests;
+			productName = AnkiiOSTests;
+			productReference = A5E6330228ACFF05005B361A /* AnkiiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5E6330B28ACFF05005B361A /* AnkiiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E6331C28ACFF06005B361A /* Build configuration list for PBXNativeTarget "AnkiiOSUITests" */;
+			buildPhases = (
+				A5E6330828ACFF05005B361A /* Sources */,
+				A5E6330928ACFF05005B361A /* Frameworks */,
+				A5E6330A28ACFF05005B361A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5E6330E28ACFF05005B361A /* PBXTargetDependency */,
+			);
+			name = AnkiiOSUITests;
+			productName = AnkiiOSUITests;
+			productReference = A5E6330C28ACFF05005B361A /* AnkiiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5E632E428ACFF01005B361A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A5E632EB28ACFF01005B361A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A5E6330128ACFF05005B361A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A5E632EB28ACFF01005B361A;
+					};
+					A5E6330B28ACFF05005B361A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A5E632EB28ACFF01005B361A;
+					};
+				};
+			};
+			buildConfigurationList = A5E632E728ACFF01005B361A /* Build configuration list for PBXProject "AnkiiOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5E632E328ACFF01005B361A;
+			productRefGroup = A5E632ED28ACFF01005B361A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5E632EB28ACFF01005B361A /* AnkiiOS */,
+				A5E6330128ACFF05005B361A /* AnkiiOSTests */,
+				A5E6330B28ACFF05005B361A /* AnkiiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5E632EA28ACFF01005B361A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E632FC28ACFF05005B361A /* LaunchScreen.storyboard in Resources */,
+				A5E632F928ACFF05005B361A /* Assets.xcassets in Resources */,
+				A5E632F728ACFF01005B361A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E6330028ACFF05005B361A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E6330A28ACFF05005B361A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5E632E828ACFF01005B361A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E632F428ACFF01005B361A /* ViewController.swift in Sources */,
+				A5E632F028ACFF01005B361A /* AppDelegate.swift in Sources */,
+				A5E632F228ACFF01005B361A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E632FE28ACFF05005B361A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E6330728ACFF05005B361A /* AnkiiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E6330828ACFF05005B361A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E6331128ACFF05005B361A /* AnkiiOSUITests.swift in Sources */,
+				A5E6331328ACFF06005B361A /* AnkiiOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5E6330428ACFF05005B361A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E632EB28ACFF01005B361A /* AnkiiOS */;
+			targetProxy = A5E6330328ACFF05005B361A /* PBXContainerItemProxy */;
+		};
+		A5E6330E28ACFF05005B361A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5E632EB28ACFF01005B361A /* AnkiiOS */;
+			targetProxy = A5E6330D28ACFF05005B361A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5E632F528ACFF01005B361A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E632F628ACFF01005B361A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5E632FA28ACFF05005B361A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5E632FB28ACFF05005B361A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5E6331428ACFF06005B361A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5E6331528ACFF06005B361A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E6331728ACFF06005B361A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkiiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarnav.AnkiiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5E6331828ACFF06005B361A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkiiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarnav.AnkiiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5E6331A28ACFF06005B361A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarnav.AnkiiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkiiOS.app/AnkiiOS";
+			};
+			name = Debug;
+		};
+		A5E6331B28ACFF06005B361A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarnav.AnkiiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkiiOS.app/AnkiiOS";
+			};
+			name = Release;
+		};
+		A5E6331D28ACFF06005B361A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarnav.AnkiiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnkiiOS;
+			};
+			name = Debug;
+		};
+		A5E6331E28ACFF06005B361A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarnav.AnkiiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnkiiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5E632E728ACFF01005B361A /* Build configuration list for PBXProject "AnkiiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E6331428ACFF06005B361A /* Debug */,
+				A5E6331528ACFF06005B361A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E6331628ACFF06005B361A /* Build configuration list for PBXNativeTarget "AnkiiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E6331728ACFF06005B361A /* Debug */,
+				A5E6331828ACFF06005B361A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E6331928ACFF06005B361A /* Build configuration list for PBXNativeTarget "AnkiiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E6331A28ACFF06005B361A /* Debug */,
+				A5E6331B28ACFF06005B361A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5E6331C28ACFF06005B361A /* Build configuration list for PBXNativeTarget "AnkiiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E6331D28ACFF06005B361A /* Debug */,
+				A5E6331E28ACFF06005B361A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5E632E428ACFF01005B361A /* Project object */;
+}
